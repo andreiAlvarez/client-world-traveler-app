@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.stamps {
+height: 10vw;
+position: flex;
+justify-content: center;
 }
+@media screen and (max-width: 480px) {
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  .landing__page {
+    margin: 0vw;
+    position: flex;
+    background: url(./images/cellPhone.jpeg) no-repeat;
+    width: 120vw;
+    height: 250vw;
+    background-size: cover;
+  }
 }
+@media screen and (min-width: 481px) and (max-width: 900px) {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .landing__page {
+    margin: 0vw;
+    position: flex;
+    background: url(./images/cellPhone.jpeg) no-repeat;
+    width: 120vw;
+    height: 200vw;
+    background-size: cover;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (min-width: 1030px) {
+  .landing__page {
+    margin: 0vw;
+    position: flex;
+    background: url(./images/pc.jpeg) no-repeat;
+    width: 120vw;
+    height: 60vw;
+    background-size: cover;
+  }
+}
+   @media screen and (min-width: 1024px) and (max-width: 1024px) {
+    .landing__page {
+      margin: 0vw;
+      position: flex;
+      background: url(./images/ipad.jpeg) no-repeat;
+      width: 120vw;
+      height: 200vw;
+      background-size: cover;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+
+html { 
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;  
 }
 
-@keyframes App-logo-spin {
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
+

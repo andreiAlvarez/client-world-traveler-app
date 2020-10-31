@@ -13,7 +13,7 @@ const NavBar = props => {
   return (
     <nav>
       <Link to='/'>
-        <strong>BookClub</strong>
+        <strong>Travel</strong>
       </Link>
 
       {(props.currentUser && (

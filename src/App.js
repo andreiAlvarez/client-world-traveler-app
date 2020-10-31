@@ -14,6 +14,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 import Profile from './components/Profile';
 import CreateAuthor from './components/Author/CreateAuthor';
 // import ListAuthors from './components/Author/ListAuthors';
+import LandingPage from './components/LandingPage';
 
 import Home from './components/Home';
 
@@ -77,6 +78,7 @@ export default class App extends React.Component {
             />
           </Switch>
         </BrowserRouter>
+        <LandingPage/>
       </div>
     );
   }
